@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import HTTPException
 from pydantic import BaseModel
 from conexion_db_crud import *  # Importamos las funciones CRUD que ya tenemos
 from fastapi import APIRouter
@@ -13,7 +13,7 @@ pedidos = APIRouter()
     
 pedidos = APIRouter(
 prefix= "/pedidos",
-tags=["pedidos"]
+tags=["Funciones apartadopedidos"]
 )
 
 # Crear pedido

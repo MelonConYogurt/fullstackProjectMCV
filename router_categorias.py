@@ -1,11 +1,11 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import  HTTPException
 from pydantic import BaseModel
 from conexion_db_crud import *  # Importamos las funciones CRUD que ya tenemos
 from fastapi import APIRouter
 
 categorias = APIRouter(
     prefix= "/categorias",
-    tags=["categorias"]
+    tags=["Funciones apartado categorias"]
 )
 
 # Modelo de Categoría para validar datos de entrada

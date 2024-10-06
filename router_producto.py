@@ -19,9 +19,8 @@ class ProductoUpdate(BaseModel):
 
 productos = APIRouter(
     prefix= "/productos",
-    tags=["productos"]
+    tags=["Funciones apartado productos"]
 )
-
     
 # Crear producto
 @productos.post("/productos/")
